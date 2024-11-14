@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Barter Network - Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+</head>
+<body>
+    <div class="flex-container">
+        <header class="main-header">
+            <a href="#" class="logo-link">
+                <i data-feather="book-open"></i>
+                <span class="sr-only">Skill Barter Network</span>
+            </a>
+            <nav class="header-nav">
+                <i data-feather="search"></i>
+                <i data-feather="bell"></i>
+                <i data-feather="user"></i>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <h1 class="welcome-title">Welcome back, John!</h1>
+                
+                <div class="stats-grid">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="stat-header">
+                                <i data-feather="users"></i>
+                                <h2>Active Exchanges</h2>
+                            </div>
+                            <p class="stat-value">5</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="stat-header">
+                                <i data-feather="star"></i>
+                                <h2>Reputation Score</h2>
+                            </div>
+                            <p class="stat-value">4.8</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="stat-header">
+                                <i data-feather="check-circle"></i>
+                                <h2>Skills Verified</h2>
+                            </div>
+                            <p class="stat-value">7</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="stat-header">
+                                <i data-feather="trending-up"></i>
+                                <h2>Skill Progress</h2>
+                            </div>
+                            <p class="stat-value">+15%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2 class="section-title">Recent Exchanges</h2>
+                            <table class="dashboard-table">
+                                <thead>
+                                    <tr>
+                                        <th>Skill</th>
+                                        <th>Partner</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Sarah K.</td>
+                                        <td>In Progress</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data Analysis</td>
+                                        <td>Mike T.</td>
+                                        <td>Completed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Graphic Design</td>
+                                        <td>Emma L.</td>
+                                        <td>Scheduled</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <h2 class="section-title">Recommended Matches</h2>
+                            <ul class="matches-list">
+                                <li class="match-item">
+                                    <i data-feather="user"></i>
+                                    <div class="match-info">
+                                        <p class="match-name">Alex M.</p>
+                                        <p class="match-skills">Python, Machine Learning</p>
+                                    </div>
+                                    <button class="btn-connect">Connect</button>
+                                </li>
+                                <li class="match-item">
+                                    <i data-feather="user"></i>
+                                    <div class="match-info">
+                                        <p class="match-name">Olivia P.</p>
+                                        <p class="match-skills">UI/UX Design, Figma</p>
+                                    </div>
+                                    <button class="btn-connect">Connect</button>
+                                </li>
+                                <li class="match-item">
+                                    <i data-feather="user"></i>
+                                    <div class="match-info">
+                                        <p class="match-name">Daniel R.</p>
+                                        <p class="match-skills">Mobile App Development, React Native</p>
+                                    </div>
+                                    <button class="btn-connect">Connect</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card skills-card">
+                    <div class="card-content">
+                        <h2 class="section-title">Your Skills</h2>
+                        <div class="skills-container">
+                            <button class="btn-skill">JavaScript</button>
+                            <button class="btn-skill">React</button>
+                            <button class="btn-skill">Node.js</button>
+                            <button class="btn-skill">SQL</button>
+                            <button class="btn-skill">Git</button>
+                            <button class="btn-skill">+ Add Skill</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <p class="copyright">© 2024 SkillSwap LLC. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Privacy</a>
+            </nav>
+        </footer>
+    </div>
+    <script src="dash.js"></script>
+</body>
+</html>
