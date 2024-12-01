@@ -12,7 +12,7 @@
     --card: #111;
     --card-foreground: #fff;
     --border: #333;
-    --input: #333;
+    --input: #333+;
     --ring: #7928ca;
     --radius: 0.5rem;
   }
